@@ -34,4 +34,4 @@ The project also includes navigation buttons (Next, Previous, and Main Page) for
 ### Steps to Run
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/SNMP-Manager-PHP.git
+   git clone https://github.com/YaraDaraghmeh/SNMP-Manager-PHP.git
