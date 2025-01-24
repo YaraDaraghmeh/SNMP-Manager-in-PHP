@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCP Table</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TCP Table</h1>
+        <div class="button-group">
+            <button onclick="fetchTcpTable()" class="button">Refresh Data</button>
+            <a href="index.html" class="button">Back to Manager</a>
+        </div>
+        <table id="tcpTable">
+            <thead>
+                <tr>
+                    <th>Index</th>
+                    <th>Connection State</th>
+                    <th>Local Address</th>
+                    <th>Local Port</th>
+                    <th>Remote Address</th>
+                    <th>Remote Port</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data will be populated by JavaScript -->
+            </tbody>
+        </table>
+       
+    </div>
+    <script src="script.js"></script>
+    <script>
+        // Load data when page loads
+        document.addEventListener('DOMContentLoaded', fetchTcpTable);
+    </script>
+</body>
+</html>
